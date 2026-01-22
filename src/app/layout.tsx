@@ -14,6 +14,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <ThemeProvider theme={baselightTheme}>
+          {/* css handler */}
           <CssBaseline />
           {children}
         </ThemeProvider>
