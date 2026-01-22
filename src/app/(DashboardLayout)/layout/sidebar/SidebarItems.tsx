@@ -27,7 +27,9 @@ const renderMenuItems = (items: any, pathDirect: any) => {
         <Menu
           subHeading={item.subheader}
           key={item.subheader}
-        />
+        >
+        <></>
+        </Menu>
       );
     }
 
